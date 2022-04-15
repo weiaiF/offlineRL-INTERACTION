@@ -57,5 +57,11 @@ We provide implementation of 3 offline RL algorithms and imitation learning algo
 | TD3+BC | `td3_bc` | [paper](https://arxiv.org/pdf/2106.06860.pdf) |
 | CQL | `cql` |  [paper](https://arxiv.org/pdf/2006.04779.pdf)|
 
+After processing the dataset, you can evaluate it using offline RL method. For example, if you want to run TD3+BC then you can run
+```sh
+python train_offline.py --port 5557 --scenario_name DR_CHN_Merging_ZS --alog_name TD3_BC --buffer_name CHN_human_expert_0
+```
+
+## License
 
 
