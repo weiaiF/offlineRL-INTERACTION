@@ -1,11 +1,14 @@
 # OfflineRL-INTERACTION Dataset
 This repo is the implementation of the paper "Offline Reinforcement Learning for Autonomous Driving with Real World Driving Data". It contains I-Sim that can replay the scenarios in the INTERACTION dataset while also can be to generate augmented data. It also contains the process of real world driving data,  autonomous driving offline training dataset and benchmark with four different algorithms.
 
+## Get INTERACTION Dataset
+
 
 ## The process of Real World Driving Data
 
 ```shell
-pip install -r requirements.txt
+cd offlinedata
+python 
 ```
 
 
@@ -45,6 +48,14 @@ python interaction_env.py "DR_CHN_Merging_ZS"
 
 
 
+## Offline RL Training
+We provide implementation of 3 offline RL algorithms and imitation learning algorithm for evaluating
+| Offline RL method | Name | Paper |
+|---|---|---|
+| Behavior Cloning | `bc` |  [paper](https://proceedings.neurips.cc/paper/1988/file/812b4ba287f5ee0bc9d43bbf5bbe87fb-Paper.pdf)|
+| BCQ | `bcq` | [paper](https://arxiv.org/abs/1812.02900.pdf)|
+| TD3+BC | `td3_bc` | [paper](https://arxiv.org/pdf/2106.06860.pdf) |
+| CQL | `cql` |  [paper](https://arxiv.org/pdf/2006.04779.pdf)|
 
 
 
