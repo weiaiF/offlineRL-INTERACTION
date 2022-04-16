@@ -8,7 +8,7 @@ This repo is the implementation of the paper "Offline Reinforcement Learning for
 
 ```shell
 cd offlinedata
-python 
+python create_demo.py
 ```
 
 
