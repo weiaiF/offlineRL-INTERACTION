@@ -22,7 +22,7 @@ docker build -t #image_name# .
 
 Run docker and do port mapping
 ```shell
-docker run -it -e DISPLAY -p 5557-5561:5557-5561 -v $path for $:$path for $ -v /tmp/.X11-unix:/tmp/.X11-unix --user="$(id --user):$(id --group)" --name #container_name# #image_name#:latest bash
+docker run -it -e DISPLAY -p 5557-5561:5557-5561 -v $path for 'interaction-master'$:/home/developer/workspace/interaction-dataset-master -v /tmp/.X11-unix:/tmp/.X11-unix --user="$(id --user):$(id --group)" --name #container_name# #image_name#:latest bash
 ```
 
 Software updata
