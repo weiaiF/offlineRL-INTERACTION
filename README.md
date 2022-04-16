@@ -64,8 +64,11 @@ python train_offline.py --port 5557 --scenario_name DR_CHN_Merging_ZS --alog_nam
 
 ## Visualization of the results
 Buffer: offline_expert, algo: TD3+BC
-![img](https://github.com/weiaiF/offlineRL-INTERACTION/blob/main/expert_exploratory_TD3_BC.gif)
+
+![img](https://github.com/weiaiF/offlineRL-INTERACTION/blob/main/offline_expert_TD3_BC.gif)
+
 Buffer: expert_exploratory, algo: TD3+BC
+
 ![img](https://github.com/weiaiF/offlineRL-INTERACTION/blob/main/expert_exploratory_TD3_BC.gif)
 
 ## License
