@@ -62,7 +62,10 @@ After processing the dataset, you can evaluate it using offline RL method. For e
 python train_offline.py --port 5557 --scenario_name DR_CHN_Merging_ZS --alog_name TD3_BC --buffer_name CHN_human_expert_0
 ```
 
-## Vis
+## Visualization of the results
+Buffer: offline_expert, algo: TD3+BC
+![img](https://github.com/weiaiF/offlineRL-INTERACTION/blob/main/expert_exploratory_TD3_BC.gif)
+Buffer: expert_exploratory, algo: TD3+BC
 ![img](https://github.com/weiaiF/offlineRL-INTERACTION/blob/main/expert_exploratory_TD3_BC.gif)
 
 ## License
