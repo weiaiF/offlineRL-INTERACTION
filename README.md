@@ -37,7 +37,7 @@ Start I-Sim
 ```shell
 docker restart #container_name#
 docker exec -it #container_name# bash
-cd interaction-dataset-master/python/interaction_gym/
+cd interaction-dataset-master/python/interaction_gym_merge/
 export DISPLAY=:0
 ```
 
